@@ -1,0 +1,18 @@
+logLevel: info
+serverAddr: http://172.16.2.38:8102
+
+tencent:
+    dbName:
+
+structure:
+    addr: http://172.16.2.205:9902/signalway/image/structurization.htm
+    apiKey: BBADA805F6AB433DB3DA15C9A4341AFF
+    token: EEB82110676E4A268DB5DFF08DDB1C87
+
+tests:
+  - gantry_code: G008164118938217022
+    passtime: nowTime_-1d
+    image_carface: http://172.18.2.9:82/test/桂AV1225_出口图片_车头.jpg
+    image_carbody: http://172.18.2.9:82/test/桂AV1225_出口图片_车身.jpg
+    image_tail: http://172.18.2.9:82/test/桂AV1225_出口图片_车尾.jpg
+

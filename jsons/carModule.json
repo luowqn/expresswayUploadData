@@ -1,0 +1,27 @@
+{
+    "id":"${id}",
+    "sessionId":"${apiKey}:${newkey}",
+    "command":"image.structurization.carModule",
+    "params":{
+        "imageSequence":"${id}",
+        "sendType":"01",
+        "carSizeModel":"01",
+        "targetPosition":null,
+        "imageName":"${imageName}",
+        "imageUrl":"${imageUrl}",
+        "imageData":"",
+        "imageType":"01",
+        "imageDataSize":0,
+        "imageWidth":${imageWidth},
+        "imageHeight":${imageHeight},
+        "imageColor":"02",
+        "sceneType":"01",
+        "gripDirection":"01",
+        "priorityLevel":"01",
+        "drivingDirection":"01",
+        "spatialInfo":"100,200",
+        "imageTime":"${imageTime}",
+        "extractionPart":"",
+        "additionalXml":""
+    }
+}
